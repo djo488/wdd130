@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap");
+
+:root {
+  --heading-font: 'Montserrat', sans-serif;
+  --paragraph-font: 'Montserrat', sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,8 +16,8 @@
   margin: 1rem;
   border: 6px solid rgba(193, 14, 14, 0.948);
   padding: 1rem;
-  background-color: #fff;
-  color: #3c1e1e;
+  background-color: #ffdada;
+  color: #3a0b0b;
 }
 
 nav {
@@ -29,10 +36,12 @@ main {
 }
 
 h1 {
+  padding: 20px;
   color: steelblue;
 }
 
 main img {
+  float:right;
   width:150px;
   height: auto;
   border: 1px solid steelblue;
@@ -41,24 +50,33 @@ main img {
 }
 
 p {
-  padding: 0;
+  font-family: var(--paragraph-font) ;
+  padding: 20px;
 }
 
 aside {
-  margin: 1em;
-  border: 100px solid #fff;
-  padding: 1em;
-  background-color: #fff;
-  color: #000000;
+  position: relative;
+  width: 20em;
   text-align: center;
 }
 
 aside img {
   width: 200px;
+  margin: 20px;
   height: auto;
   border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
+}
+
+aside h2 {
+  position: absolute;
+  top: 0px;
+  left: 116px;
+}
+
+.indent {
+  padding-left: 2rem;
 }
 
 footer {
