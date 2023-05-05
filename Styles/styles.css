@@ -11,6 +11,8 @@
   box-sizing: border-box;
 }
 
+/* Class Selectors */
+
 .box {
   margin: 1rem;
   border: 6px solid rgba(193, 14, 14, 0.948);
@@ -84,4 +86,3 @@ footer {
   text-align: center;
 }
 
-/* class selector */
