@@ -10,7 +10,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* class selector*/
 
 .box {
   margin: 1rem;
@@ -41,8 +40,8 @@ h1 {
 }
 
 main img {
-  float:right;
-  width:150px;
+  float: right;
+  width: 150px;
   height: auto;
   border: 1px solid steelblue;
   padding: 2px;
@@ -84,3 +83,5 @@ footer {
   border-top: 1px solid #000;
   text-align: center;
 }
+
+/* class selector */
