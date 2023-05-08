@@ -17,7 +17,6 @@
 
 nav {
     float: right;
-    
 }
 
 * {
@@ -26,7 +25,7 @@ nav {
     box-sizing: border-box;
   }
   
-  /* Class Selectors */
+/* Class Selectors */
   
 .box {
     margin: 5px;
@@ -37,17 +36,42 @@ nav {
 }
 
 .hero {
-
+    position: relative;
 }
 
 .hero img {
     display: block;
-    width: 100%;
-    height: auto;
+    margin: 5px;
+    width: 99.3%;
 }
-  
-.sociallinks a {
+
+.hero .title {
+    position: absolute;
+    top: 10%;
+    left: 43%;
+    color: --;
+}
+
+.hero .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.sociallinks{
     text-decoration: none;
     margin-right: 10px;
+    margin-top: 0px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.p {
+    font: var(--heading-font);
 }
   
