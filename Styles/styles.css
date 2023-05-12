@@ -43,10 +43,11 @@ main {
 }
 
 aside {
-  position: absolute;
+  position: relative;
   width: 20em;
   text-align: center;
   grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 nav {
