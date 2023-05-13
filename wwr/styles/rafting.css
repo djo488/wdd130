@@ -49,9 +49,15 @@ nav {
     position: absolute;
     top: 10%;
     left: 43%;
-    color: --;
+    color: black;
+    text-align: center;
 }
 
+.title {
+    font-family: var(--heading-font);
+    font-size: 3rem;
+}
+    
 .hero .content {
     position: absolute;
     top: 50%;
