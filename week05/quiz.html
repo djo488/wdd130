@@ -10,41 +10,34 @@
 
     <body>
         <header>
-            <h1>The HTML and CSS Quiz</h1>
+            <h1>Basic HTML and CSS Quiz</h1>
         </header>
 
         <main>
             <form>
                 <fieldset>
-                    <div class="">
-                        <label for="q1">Question 1</label>
-                        <input type="question" id="q1" name="q1">
-                    </div>
-                    
                     <div>
-                        <label for="q2">Question 2</label>
-                        
-                        <textarea id="feedback" name="feedback" rows="3" placeholder="">></textarea>
+                        <label for="q1" data-number="1)">Do all HTML tags have an end tag?</label>
+                        <input type="text" id="q1" name="q1">
                     </div>
-            
-                    <div class="">
-                        <label for="q3">Question 3</label>
+                    <div>
+                        <label for="q2" data-number="2)">What is semantic HTML?</label>
+                        <textarea id="q2" name="q2" rows="3" placeholder="">></textarea>
+                    </div>
+                    <div>
+                        <label for="q3" data-number="3)">What does CSS stands for?</label>
                         <select id="q3" name="q3">
-                    
                         <option value="" selected disabled>Choose One ...</option>  
-                        <option value="firefox">Firefox</option>
-                        <option value="Brave">Brave</option>
-                        <option value="safari">Safari</option>
-                        <option value="duckduckgo">Duckduckgo</option>
+                        <option value="Class Style Source">Class Style Source</option>
+                        <option value="Cascading Style Sheets">Cascading Style Sheets</option>
+                        <option value="Chrome Style Sweep">Chrome Style Sweep</option>
+                        <option value="Central Security Service">Central Security Service</option>
                         </select>
                     </div>
-
-                    <div class="">
-                        
-                        <label for="q4">Question 4</label>
-                        <input type="question" id="q4" name="q4">
-                    </div>
-                    
+                    <div>
+                        <label for="q4" data-number="4)">How many ways can we change the color of our text with CSS?</label>
+                        <input type="number" id="q4" name="q4">
+                    </div>                   
                 </fieldset>
                 <button type="submit">Submit Quiz</button>
             </form>
