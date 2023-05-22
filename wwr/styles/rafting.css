@@ -35,6 +35,7 @@ body {
 h1, h2, h3 {
   font-family: var(--heading-font);
   color: var(--primary-color);
+  text-align: center;
   
 }
 
@@ -178,7 +179,7 @@ nav {
 
 button {
   margin: 1rem;
-  background-color: navy;
+  background-color: var(--secondary-color);
   color: #fff;
   border: none;
   border-radius: .5rem;
@@ -187,5 +188,46 @@ button {
 }
 
 button:hover {
-  background-color: darkgreen;
+  background-color: var(--accent1-color);
 }
+
+form {
+  width: 650px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
+}
+
+label {
+  display: block;
+  text-align: left;
+}
+
+input[type="text"],
+textarea{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+legend {
+  padding: 0.5rem;
+  color: var(--accent2-color);
+  font-size: 1.3em;
+} 
+
