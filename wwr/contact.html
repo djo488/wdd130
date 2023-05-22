@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us Page</title>
+        <meta name="description" content="This is a contact us page for the wwr webpage">
+        <meta name="author" content="Jonathan Dagenais">
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    
+    <body>
+
+        <header class="box">
+            <img src="images/logo-wwr.png" alt="Rafting site logo">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Send us a message!</h2>
+                <p>Adress: 621 Chem. de la Rivière-Rouge, Argenteuil, QC J0V 1B0</p>
+                <p>Phone: +1-450-555-6548</p>
+                <p>Email: plongerafting@pm.me</p>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26522.15458312168!2d-74.65828938548557!3d45.674953558058775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1684534073849!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            <figure>    
+                <img src="images/3_employees.webp" alt="rafting employees">
+                <figcaption>We work for you!</figcaption>
+            </figure>
+
+            <h3>Please fill out the form completely so we can better adress your inquiries</h3>
+
+            <form>
+                <fieldset>
+                    <div>
+                        <label for="full name">Full Name:</label>
+                        <input type="text" id="q1" name="q1">
+                    </div>
+                    <div>
+                        <label for="email adress">Email adress:</label>
+                        <input type="text" id="q1" name="q1">
+                    </div>
+                    <div>
+                        <input type="radio" id="purpose" name="purpose">
+                        <label for="html">General Inquiry</label>
+                    </div>    
+                    <div>
+                        <input type="radio" id="purpose" name="purpose">
+                        <label for="html">Reservation Question</label>
+                    </div>
+                    <div>    
+                        <input type="radio" id="purpose" name="purpose">
+                        <label for="html">Website Suggestion</label>
+                    </div>
+                    <div>
+                        <label for="message">Type your message here</label>
+                        <textarea id="text" name="message" rows="3"></textarea>
+                    </div>
+                    <div>
+                        <label for="newsletter subscription">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="newletter subscription" name="newsletter subscription">
+                    </div>
+                </fieldset>
+                <button type="submit">Submit my inquiries</button>
+            </form>
+        </main>
+
+        <footer class="box">
+            <p class="footer">&#169;2023 | Plonge Rafting | Jonathan Dagenais</p>
+            <nav class="sociallinks">
+                <a href="https://facebook.com">
+                <img src="images/logo_facebook.png" alt="Facebook"
+                width="50"></a>
+                <a href="https://twitter.com">
+                <img src="images/logo_twitter.png" alt="Twitter"
+                width="50"></a>
+                <a href="https://instagram.com">
+                <img src="images/logo_instagram.png" alt="Instagram"
+                width="52"></a>
+            </nav>
+        </footer>
+
+    </body>
+</html>
