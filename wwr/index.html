@@ -1,45 +1,79 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Homepage</title>
-        <meta name="description" content="This is the Homepage of the wwr website.">
-        <meta name="author" content="Jonathan Dagenais">
-        <link rel="stylesheet" href="styles/rafting.css">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <meta name="description" content="This is the Homepage of the wwr website.">
+    <meta name="author" content="Jonathan Dagenais">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+
+    <header class="box">
+        <img src="images/logo-wwr.png" alt="Rafting site logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+          <h1>Welcome to <br> Plonge Rafting!</h1>
+          <img src="images/full-width.webp" alt="background image, full width, rafting in river.">
+        </section>
     
-    <body>
+        <section class="newsletter">
+          <h2>Subscribe to Our Newsletter</h2>
+          <form>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <button class="btn" type="submit">Subscribe</button>
+          </form>
+        </section>
+    
+        <section class="cta">
+          <h2>Ready for an Adventure?</h2>
+          <p>Check out our thrilling rafting trips!</p>
+          <a href="trips.html" class="btn">Explore Trips</a>
+        </section>
+    
+        <section class="grid">
+          <div class="grid-item">
+            <img src="images/wwr_purpose.webp" alt="Splash_rafting">
+            <h3>Our Purpose</h3>
+            <p>We want to create exhilarating and unforgettable adventures through white water rafting, providing thrill-seekers with an adrenaline-pumping experience in breathtaking natural settings.</p>
+          </div>
+          <div class="grid-item">
+            <img src="images/wwr_offerings.webp" alt="Rafting_in_dark_river">
+            <h3>Our Offerings</h3>
+            <p>We want to offer you an expert-guided trips, state-of-the-art equipment, and customized packages for all skill levels, ensuring an unforgettable journey.</p>
+          </div>
+        </section>
+      </main>
 
-        <header class="box">
-            <img src="images/logo-wwr.png" alt="Rafting site logo">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
-            </nav>
-        </header>
+    <footer class="box">
+        <p class="footer">&#169;2023 | Plonge Rafting | Jonathan Dagenais</p>
+        <a href="images/Home_Wireframe.webp" target="_blank">Link to Trips Wireframe</a>
+        <br>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/logo_facebook.png" alt="Facebook" width="50">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/logo_twitter.png" alt="Twitter" width="50">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/logo_instagram.png" alt="Instagram" width="52">
+            </a>
+        </nav>
+    </footer>
 
-        <main>
-            <img src="images/full-width.webp" alt="background image, full width, rafting in river."> 
-        </main>
+</body>
 
-        <footer class="box">
-            <p class="footer">&#169;2023 | Plonge Rafting | Jonathan Dagenais</p>
-            <nav class="sociallinks">
-                <a href="https://facebook.com">
-                <img src="images/logo_facebook.png" alt="Facebook"
-                width="50"></a>
-                <a href="https://twitter.com">
-                <img src="images/logo_twitter.png" alt="Twitter"
-                width="50"></a>
-                <a href="https://instagram.com">
-                <img src="images/logo_instagram.png" alt="Instagram"
-                width="52"></a>
-            </nav>
-        </footer>
-
-    </body>
 </html>
