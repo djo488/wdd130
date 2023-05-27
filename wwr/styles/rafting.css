@@ -98,6 +98,9 @@ nav a:hover {
   transform: translate(-50%, -50%);
   color: var(--primary-color);
   font-size: 2.5rem;
+  font-size: 40px;
+  color: var(--primary-color);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero article {
@@ -115,9 +118,6 @@ nav a:hover {
   margin-left: 20px;
 }
 
-section {
-  padding: 50px 0;
-}
 
 section h2 {
   color: var(--primary-color);
@@ -163,13 +163,6 @@ footer p {
 
 footer img {
   margin: 0 5px;
-}
-
-header {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
-  gap: 20px;
 }
 
 nav {
@@ -286,5 +279,86 @@ main {
 
 /* End for additions for the Trips page */
 
+/* Additions for the Home page */
 
+/* Main styles */
+
+.newsletter {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.newsletter h2 {
+  margin-bottom: 20px;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+}
+
+.cta {
+  background-color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.cta h2 {
+  margin-bottom: 20px;
+}
+
+.cta p {
+  margin-bottom: 40px;
+}
+
+.btn {
+  margin: 1rem;
+  background-color: var(--secondary-color);
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: var(--accent1-color);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item h3 {
+  margin: 20px 0;
+}
+
+
+/* End for additions for the Home page */
+
+
+/* Took them out because they cause me issues
+
+section {
+  padding: 50px 0;
+}
+
+*/
 
