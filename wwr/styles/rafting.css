@@ -11,19 +11,15 @@
 
     --nav-background-color: #a0c1b9;
     --nav-link-color: #fff;
-    --nav-hover-link-color: #706993;
+    --nav-hover-link-color: #706993; /*take this one to fix the color problem*/
     --nav-hover-background-color: #fff;
-}
-
-nav {
-    float: right;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
 body {
   font-family: var(--paragraph-font);
@@ -40,7 +36,7 @@ h1, h2, h3 {
 
 header {
   padding: 20px;
-  background-color: var(--accent1-color);
+  background-color: var(--secondary-color);
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
@@ -48,12 +44,13 @@ header {
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: var(--nav-hover-link-color);
   font-size: 1.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  float: right;
 }
 
 nav a {
@@ -71,6 +68,10 @@ nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+}
+
+.sociallinks {
+  float: right;
 }
 
 .container {
@@ -118,7 +119,6 @@ nav a:hover {
   margin-left: 20px;
 }
 
-
 section h2 {
   color: var(--primary-color);
 }
@@ -144,7 +144,7 @@ footer {
   margin: 1rem auto 0;
   width: 650px;
   font-size: 0.8em;
-  color: #777;
+  color: var(--primary-color);
   border-top: 1px solid #ccc;
 }
 
@@ -156,13 +156,9 @@ footer img {
   margin: 0 5px;
 }
 
-nav {
-  display: flex
-}
-
 button {
   margin: 1rem;
-  background-color: var(--secondary-color);
+  background-color: var(--nav-hover-link-color);
   color: #fff;
   border: none;
   border-radius: .5rem;
@@ -171,7 +167,7 @@ button {
 }
 
 button:hover {
-  background-color: var(--accent1-color);
+  background-color: var(--accent2-color);
 }
 
 form {
@@ -218,7 +214,7 @@ p {
   margin: 15px;
 }
 
-/* Additions for the Trips page */
+/* Additions for the Trips page -----------------------------------------------------*/
 
 main {
   padding: 20px;
@@ -268,11 +264,9 @@ main {
   color: var(--primary-color);
 }
 
-/* End for additions for the Trips page */
+/* End for additions for the Trips page --------------------------------------------*/
 
-/* Additions for the Home page */
-
-/* Main styles */
+/* Additions for the Home page -----------------------------------------------------*/
 
 .newsletter {
   padding: 50px 0;
@@ -313,7 +307,7 @@ main {
 
 .btn {
   margin: 1rem;
-  background-color: var(--secondary-color);
+  background-color: var(--nav-hover-link-color);
   color: #fff;
   border: none;
   border-radius: .5rem;
@@ -323,7 +317,7 @@ main {
 }
 
 .btn:hover {
-  background-color: var(--accent1-color);
+  background-color: var(--accent2-color);
 }
 
 .grid {
@@ -341,8 +335,7 @@ main {
   margin: 20px 0;
 }
 
-
-/* End for additions for the Home page */
+/* End for additions for the Home page -----------------------------------------------*/
 
 
 /* Took them out because they cause me issues
