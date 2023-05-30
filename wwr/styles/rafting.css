@@ -70,10 +70,6 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
 }
 
-.sociallinks {
-  float: right;
-}
-
 .container {
   position: relative;
 }
@@ -154,6 +150,11 @@ footer p {
 
 footer img {
   margin: 0 5px;
+}
+
+.sociallinks {
+  margin: 10px;
+  background-color: #fff;
 }
 
 button {
